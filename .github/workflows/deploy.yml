@@ -32,12 +32,12 @@ jobs:
 
       - name: Check every local link resolves
         run: |
-          cd_site
+          cd _site
           grep -oE '(src|href)="[^"#:]+"' index.html \
             | sed -E 's/^(src|href)="//; s/"$//; s/\?.*$//' \
             | sort -u | while read -r f; do
-              [ -e "$f" ] || {echo "Missing file: $f"; exit 1; }
-            done
+                [ -e "$f" ] || { echo "Missing file: $f"; exit 1; }
+              done
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
