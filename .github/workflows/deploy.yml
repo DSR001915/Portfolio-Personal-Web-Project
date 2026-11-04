@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html about.html skills.html Projects.html contact.html _site/
-          cp Devansh_AI_ML_DevOps.pdf _site/
+          cp DevanshResume_AI_ML_DevOps.pdf _site/
           cp -r css js _site/
           mkdir -p _site/img
           cp -r img/projects img/dev-cutout.webp img/dev-portrait.webp _site/img/
