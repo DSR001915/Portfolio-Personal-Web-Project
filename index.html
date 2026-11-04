@@ -1,433 +1,533 @@
-</html>
 <!doctype html>
 <html lang="en">
-    
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="project.css">
-	<link rel="shortcut icon" href="/img/favicon.gif" type="image/x-icon">
-	<title>Amarjeet Kumar</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<!-- ------------------------------------ -->
-	
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
-	<script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
-	<script src="/js/index.js"></script>
-	<link rel="stylesheet" href="/hero.scss">  
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<!-- isko dekh lena -->
-	<div class="block"></div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Devansh Singh Raghuvanshi — AI/ML & DevOps Engineer</title>
+  <meta name="description" content="Devansh Singh Raghuvanshi — Computer Science Engineering graduate and AI/ML & DevOps intern at NeGD, MeitY. Python, FastAPI, machine learning, NLP, RAG, Docker and CI/CD projects.">
+  <meta name="theme-color" content="#04090f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Devansh Singh Raghuvanshi — AI/ML & DevOps Engineer">
+  <meta property="og:description" content="Python, machine learning, NLP/RAG, FastAPI and DevOps projects by Devansh Singh Raghuvanshi.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2304090f'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='34' fill='%233ee8f6'%3ED%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.16.0/devicon.min.css">
+  <link rel="stylesheet" href="css/glass.css?v=3">
+  <link rel="stylesheet" href="css/motion.css?v=3">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
-<!-- ------------------------------------------------------------------------------------------- -->
-	<!--================ Start Header Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<div id="progress-bar"></div>
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/worlds.gif" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
-							<li class="nav-item"><a class="nav-link" href="Projects.html">Projects</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-	<!--================ End Header Area =================-->
+  <!-- Animated background layers -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+  <canvas class="bg-net" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
 
-	<!--================ Start Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7">
-						<div class="banner_content">
-							<h3 class="text-uppercase">Hi, I am</h3>
-							<h1 style="font-size: 44px;" class="text-uppercase"> Amarjeet Kumar </h1>
-				
+  <!-- Reusable 3D glass shapes -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="g-top" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#bff9ff" stop-opacity=".55"/>
+        <stop offset="1" stop-color="#3ee8f6" stop-opacity=".15"/>
+      </linearGradient>
+      <linearGradient id="g-left" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3ee8f6" stop-opacity=".35"/>
+        <stop offset="1" stop-color="#0b4c5a" stop-opacity=".25"/>
+      </linearGradient>
+      <linearGradient id="g-right" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#8af5ff" stop-opacity=".25"/>
+        <stop offset="1" stop-color="#0a2a36" stop-opacity=".35"/>
+      </linearGradient>
+    </defs>
+    <symbol id="cube" viewBox="0 0 100 100">
+      <g stroke="#b9f6ff" stroke-opacity=".75" stroke-width="1.2" stroke-linejoin="round">
+        <polygon points="50,6 92,29 50,52 8,29" fill="url(#g-top)"/>
+        <polygon points="8,29 50,52 50,96 8,73" fill="url(#g-left)"/>
+        <polygon points="92,29 50,52 50,96 92,73" fill="url(#g-right)"/>
+      </g>
+      <path d="M18 31 L50 49" stroke="#fff" stroke-opacity=".6" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="prism" viewBox="0 0 100 100">
+      <g stroke="#b9f6ff" stroke-opacity=".75" stroke-width="1.4" stroke-linejoin="round">
+        <polygon points="50,6 8,80 58,94" fill="url(#g-left)"/>
+        <polygon points="50,6 58,94 94,74" fill="url(#g-right)"/>
+      </g>
+    </symbol>
+  </svg>
 
-							<!-- <p class="jsx-25fd3b2ce9ec1b8f"><span class="jsx-25fd3b2ce9ec1b8f seq text-3xl text-gray-light-3 font-mono leading-relaxed" style="opacity: 1;">A pragmatic Full Stack Dev</span><span class="typed-cursor" aria-hidden="true">|</span></p> -->
+  <div class="frame">
+    <div class="decor" aria-hidden="true">
+      <span class="shape" style="--s:90px;top:-30px;right:-34px;--r:12deg;--d:10s"><svg><use href="#cube"/></svg></span>
+      <span class="shape" style="--s:54px;top:150px;left:-26px;--r:-10deg;--d:8s;--delay:-2s"><svg><use href="#cube"/></svg></span>
+      <span class="shape" style="--s:46px;top:120px;left:31%;--r:20deg;--d:9s;--delay:-4s"><svg><use href="#prism"/></svg></span>
+      <span class="shape shape--blur" style="--s:40px;top:240px;right:31%;--r:-8deg;--d:11s"><svg><use href="#cube"/></svg></span>
+      <span class="shape" style="--s:52px;top:900px;left:47%;--r:15deg;--d:10s;--delay:-3s"><svg><use href="#prism"/></svg></span>
+      <span class="shape" style="--s:62px;top:1500px;right:-28px;--r:-14deg;--d:9s;--delay:-5s"><svg><use href="#cube"/></svg></span>
+      <span class="shape shape--blur" style="--s:48px;top:2100px;left:-24px;--r:10deg;--d:12s;--delay:-1s"><svg><use href="#cube"/></svg></span>
+      <span class="shape" style="--s:44px;top:2700px;left:48%;--r:-6deg;--d:9s;--delay:-6s"><svg><use href="#cube"/></svg></span>
+      <span class="shape" style="--s:58px;bottom:420px;right:-26px;--r:18deg;--d:10s;--delay:-2s"><svg><use href="#prism"/></svg></span>
+      <span class="shape shape--blur" style="--s:42px;bottom:160px;left:-20px;--r:-12deg;--d:11s;--delay:-4s"><svg><use href="#cube"/></svg></span>
+    </div>
 
-							<div class="apicall">
-								<span class="role"></span>
-							</div>
+    <!-- ================= Navigation ================= -->
+    <header class="nav glass">
+      <a class="brand" href="#home">DEVANSH <span>RAGHUVANSHI</span></a>
+      <nav aria-label="Primary">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav__social">
+        <a class="icon-btn" href="https://www.linkedin.com/in/devansh-raghuvanshi-30b578231/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a class="icon-btn" href="https://github.com/DSR001915" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a class="icon-btn" href="mailto:dsraghuvanshi2002@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a class="icon-btn" href="https://wa.me/919140405360" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <button class="nav__toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    </header>
 
-							<!-- <h5 class="text-uppercase">Software Developer</h5> -->
-							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="/contact.html"><span>Hire Me</span></a>
-								<a class="primary_btn tr-bg" href="/MyResume.pdf" target="_blank"><span>Get Resume </span></a>
-							</div>
-						</div>
-					</div>
-					
-							<div class="user-image"> 
-								<img src="img/Photoss.jpg" alt="" style="width: 220px; height:230px">
-							</div>
-						</div>
-				
-						
+    <main id="main">
+      <!-- ================= Hero ================= -->
+      <section class="hero" id="home">
+        <div class="hero__intro glass glow-edge">
+          <span class="eyebrow"><span class="dot"></span>AI/ML &amp; DevOps Intern · NeGD, MeitY</span>
+          <h1>AI/ML Engineer<br>&amp; DevOps Developer<span class="name">Devansh Singh Raghuvanshi.</span></h1>
+          <p class="hero__lead">Computer Science Engineering graduate building Python-based AI/ML, NLP and automation systems — from data and models to FastAPI services, Docker and CI/CD.</p>
+          <p class="hero__typed" data-typed='["Machine learning & NLP","RAG-powered document Q&A","FastAPI & Flask backends","Docker & CI/CD pipelines","Data analysis with Pandas"]'>
+            <span class="sr-only">Focus areas: machine learning, NLP, RAG, FastAPI, Docker and CI/CD.</span>
+            <span aria-hidden="true"><span class="typed-text">Machine learning &amp; NLP</span><span class="caret"></span></span>
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact Me</a>
+          </div>
+        </div>
 
-						
+        <div class="hero__photo">
+          <div class="hero__panel glass"></div>
+          <img src="img/dev-cutout.webp" width="500" height="499" alt="Portrait of Devansh Singh Raghuvanshi">
+        </div>
 
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Home Banner Area =================-->
+        <div class="hero__side">
+          <div class="mini glass glow-edge">
+            <div class="mini__head">
+              <span class="mini__icon"><i class="fa-solid fa-briefcase"></i></span>
+              <div>
+                <div class="mini__label">Currently</div>
+                <div class="mini__title">AI/ML &amp; DevOps Intern — NeGD, MeitY</div>
+              </div>
+            </div>
+            <p>Working on the Government of India's myScheme platform: MongoDB data analysis and an AI/ML chatbot.</p>
+            <a class="btn btn--sm" href="#experience">View experience <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+          <div class="mini glass">
+            <div class="mini__head">
+              <span class="mini__icon"><i class="fa-solid fa-paper-plane"></i></span>
+              <div>
+                <div class="mini__label">Get in touch</div>
+                <div class="mini__title">Contact details</div>
+              </div>
+            </div>
+            <div class="contact-rows">
+              <a class="contact-row" href="mailto:dsraghuvanshi2002@gmail.com"><i class="fa-solid fa-envelope"></i><span>dsraghuvanshi2002@gmail.com</span><i class="fa-solid fa-chevron-right"></i></a>
+              <a class="contact-row" href="https://www.linkedin.com/in/devansh-raghuvanshi-30b578231/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i><span>linkedin.com/in/devansh-raghuvanshi</span><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-	<!--================ Start About Us Area =================-->
-	<section class="about_area section_gap">
-		<div class="container">
-			<div class="row justify-content-start align-items-center">
-				<div class="col-lg-5">
-					<div class="about_img">
-					
-						<img class="lol" src="my img/coding.gif" alt="">
-					</div>
-				</div>
+      <div class="columns">
+        <!-- ================= Left column ================= -->
+        <div class="col">
+          <!-- About -->
+          <section id="about" class="panel glass about reveal">
+            <div class="about__img"><img src="img/dev-portrait.webp" width="480" height="480" alt="Devansh Singh Raghuvanshi" loading="lazy"></div>
+            <div>
+              <h2>About Me</h2>
+              <p>I'm a Computer Science Engineering graduate from Chandigarh University, currently an AI/ML &amp; DevOps intern at the National e-Governance Division (NeGD), MeitY.</p>
+              <p>I work mostly in Python — machine learning, NLP and data processing — and I like turning models into usable services with FastAPI, Docker and automated deployment workflows.</p>
+              <div class="stats">
+                <div class="stat"><b data-count="8.28" data-decimals="2">8.28</b><span>CGPA / 10</span></div>
+                <div class="stat"><b data-count="2">2</b><span>Internships</span></div>
+                <div class="stat"><b data-count="20" data-suffix="+">20+</b><span>GitHub repos</span></div>
+              </div>
+              <a class="btn btn--sm" href="DevanshResume_AI_ML_DevOps.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+            </div>
+          </section>
 
-				<div class="offset-lg-1 col-lg-5">
-					<div class="main_title text-left">
-						<h2 class="letsfronts">Let’s Introduce myself</h2>
-						<p style="color: black;">
-						Driven and detail-oriented Computer Science and Engineering student with a strong foundation in programming, data structures, and problem-solving. Seeking a software development internship to leverage technical skills, innovative thinking, and collaborative abilities in contributing to impactful projects within a forward-thinking organization.						</p>	
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End About Us Area =================-->
-	<!--================ Srart Brand Area =================-->
-	<section class="brand_area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6  prooooo">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/1111111.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo2.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo3.png" alt="">
-								</div>
-							</div>
-						</div>
+          <!-- Featured projects -->
+          <section id="projects">
+            <h2 class="section-title">Featured Projects<small>Selected work from my GitHub</small></h2>
+            <div class="projects">
+              <div class="project-wrap reveal">
+                <article class="project glass">
+                  <div class="project__media">
+                    <div class="cover" aria-hidden="true">
+                      <div class="cover__icons"><i class="devicon-fastapi-plain"></i><i class="fa-solid fa-diagram-project"></i><i class="devicon-mongodb-plain"></i></div>
+                      <span class="cover__label">~/docutrust · CRAG</span>
+                    </div>
+                  </div>
+                  <div class="project__body">
+                    <span class="project__tag">AI / ML · RAG</span>
+                    <h3>DocuTrust — Self-Correcting RAG</h3>
+                    <p>A corrective RAG platform built as a LangGraph state machine. Every retrieval is graded by a cross-encoder reranker, then answered with inline citations, rewritten and retried, or routed to a disclosed web-search fallback. A FastAPI WebSocket streams each step live to the UI.</p>
+                    <div class="chips"><span class="chip">FastAPI</span><span class="chip">LangGraph</span><span class="chip">ChromaDB</span><span class="chip">MongoDB</span><span class="chip">sentence-transformers</span><span class="chip">Docker Compose</span></div>
+                    <div class="project__actions">
+                      <a class="btn btn--sm btn--primary" href="https://github.com/DSR001915/docutrust" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View code</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
 
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo4.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo5.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo6.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo7.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo8.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 kalusir">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo9.png" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-4 col-md-6">
-					<div class="client-info">
-						<div class="d-flex mb-50">
-							<span class="lage">Fresher</span>
-						</div>
-						<div class="call-now d-flex">
-							<!-- <div>
-								<span class="fa fa-phone"></span>
-							</div> -->
-							<div class="ml-15">
-								<span class="lage">10+</span>
-								<span class="smll prooo">Projects</span>
-								<!-- <p>call us now</p>
-								<h3>50+ Projects</h3> -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Brand Area =================-->
+              <div class="project-wrap reveal">
+                <article class="project project--flip glass">
+                  <div class="project__media">
+                    <img src="img/projects/zenith.webp" width="960" height="431" alt="Zenith Study Planner project creation screen" loading="lazy">
+                  </div>
+                  <div class="project__body">
+                    <span class="project__tag">Web App · Live</span>
+                    <h3>Zenith Study Planner</h3>
+                    <p>An offline-first study planner with tasks, a month/week/day calendar, project Gantt timelines, a Pomodoro focus mode and gamified streaks and badges — all persisted in IndexedDB.</p>
+                    <div class="chips"><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Vite</span><span class="chip">Tailwind CSS</span><span class="chip">Zustand</span><span class="chip">Recharts</span></div>
+                    <div class="project__actions">
+                      <a class="btn btn--sm btn--primary" href="https://zenith-study-planner.vercel.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a>
+                      <a class="btn btn--sm" href="https://github.com/DSR001915/zenith-study-planner" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
 
-	<!--================ Start Features Area =================-->
-	<section class="features_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<h2 style="padding-top: 17px;" class="servecesssssss">Skills</h2>
-						<!-- <p>
-							Is give may shall likeness made yielding spirit a itself togeth created 
-							after sea <br> is in beast beginning signs open god you're gathering ithe
-						</p> -->
-					</div>
-				</div>
-			</div>
-			<div class="row feature_inner">
-				<!-- <div class="col-lg-3 col-md-6"> -->
-					<div class="col-lg-3 col-md-6">
-						<div class="feature_item" >
-							<img src="gif/Web design.gif" alt="">
-							<h4 class="uiuxdesigner">Ui/Ux Designer</h4>
-							<p>my work involves creating and designing and improving the overall user interface and user experience of digital products.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="feature_item">
-							<img src="gif/Webdesigner.gif" alt="">
-							<h4>Web Developer</h4>
-							<p>my work involves creating and maintaining websites and web applications using various programming languages.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="feature_item">
-							<img src="gif/app developer.gif" alt="">
-							<h4>App Developer</h4>
-							<p>my work involves creating, designing and maintaining mobile & desktop applications for various platforms.</p>
-						</div>
-					</div>
-				
-					<div class="col-lg-3 col-md-6">
-						<div class="feature_item">
-							<img src="gif/Databae.gif" alt="">
-							<h4>Database Devloper</h4>
-							<p>my work is designing and maintaining databases, i also creating and optimizing data access and storage.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="feature_item">
-							<img src="gif/seo.gif" alt="">
-							<h4>seo optimize</h4>
-							<p>my work involves improving the visibility and search ranking of websites through various optimization techniques.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="feature_item">
-							<img src="gif/Microsoftr.gif" alt="">
-							<h4 class="Microsoft360">Microsoft 360</h4>
-							<p>my work involves utilizing and managing various Microsoft software such as Office 365, Power Platform & other tools.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="feature_item">
-							<img src="gif/video.gif" alt="">
-							<h4>Video Editing</h4>
-							<p>my work involves manipulating and rearranging video shots to create a new work, audio mixing, and motion graphics.</p>
-						</div>
-					</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Features Area =================-->
-	<!-- ------ What i have made---- -->
-	
-	<div class="testimonial_area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title latestprojects">
-						<h2>Training</h2>
-						<!-- <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
-							 beginning signs open god you're gathering ithe</p> -->
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="testi_slider owl-carousel experienceclass">
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/Microsoft.png" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text experienceintership">
-        							<h4>INTEL</h4>
-									<p>"Successfully completed a 45-day internship with Intel, immersing in industry-standard practices and technical skills to strengthen practical knowledge and expertise. Gained hands-on experience with advanced AI tools, including machine learning, deep learning, and artificial intelligence techniques, enhancing proficiency in innovative technologies and preparing for complex challenges in the field."</p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-					<!-- ------------------------------------ -->
-					
-        			
-					<!-- ------------------------------------ -->
-					<!-- ------------------------------------ -->
-					
-        		
-	
-					
-        		</div>
-			</div>
-		</div>
-	</div>
+              <div class="project-wrap reveal">
+                <article class="project glass">
+                  <div class="project__media">
+                    <div class="cover" aria-hidden="true">
+                      <div class="cover__icons"><i class="devicon-pandas-plain"></i><i class="fa-solid fa-chart-line"></i><i class="devicon-scikitlearn-plain"></i></div>
+                      <span class="cover__label">ROC-AUC 0.98</span>
+                    </div>
+                  </div>
+                  <div class="project__body">
+                    <span class="project__tag">Machine Learning</span>
+                    <h3>E-Commerce Churn Prediction</h3>
+                    <p>End-to-end churn modelling on 5,630 customers: EDA, feature engineering and a benchmark of a dozen classifiers, then voting, bagging and stacking ensembles tuned with GridSearchCV. The tuned stacking model reached 98.1% accuracy on the held-out test split.</p>
+                    <div class="chips"><span class="chip">scikit-learn</span><span class="chip">XGBoost</span><span class="chip">LightGBM</span><span class="chip">CatBoost</span><span class="chip">Pandas</span></div>
+                    <div class="project__actions">
+                      <a class="btn btn--sm btn--primary" href="https://github.com/DSR001915/Customer-churn-prediction-system" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View code</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
 
-	<div class="FooterBg_top__2T9_L">
-		<div class="FooterBg_background__3ENoK">
-		<div class="FooterBg_background__three__2xvFH"></div>
-		<div class="FooterBg_background__one__2xvFH"></div>
-		<div class="FooterBg_background__two__1aOsU"></div>
-		</div></div>
-		
-		<div class="FooterBg_background__3ENoK">
-		<div class="FooterBg_background__three__2xvFH"></div>
-		<div class="FooterBg_background__one__2xvFH"></div>
-		<div class="FooterBg_background__two__1aOsU"></div>
-		</div>
-		
-		<div class="FooterBg_background__two__1aOsU"></div>
+              <div class="project-wrap reveal">
+                <article class="project project--flip glass">
+                  <div class="project__media">
+                    <div class="cover" aria-hidden="true">
+                      <div class="cover__icons"><i class="devicon-pytorch-original"></i><i class="fa-solid fa-lungs"></i></div>
+                      <span class="cover__label">ResNet50 · Grad-CAM</span>
+                    </div>
+                  </div>
+                  <div class="project__body">
+                    <span class="project__tag">Deep Learning · Vision</span>
+                    <h3>Pneumonia Detection from X-Rays</h3>
+                    <p>Classifies chest X-rays as normal, bacterial or viral pneumonia with a fine-tuned ResNet50. Handles class imbalance, explains predictions with Grad-CAM heatmaps and ships a Gradio app with an uncertainty threshold.</p>
+                    <div class="chips"><span class="chip">PyTorch</span><span class="chip">fastai</span><span class="chip">Grad-CAM</span><span class="chip">Gradio</span><span class="chip">OpenCV</span></div>
+                    <div class="project__actions">
+                      <a class="btn btn--sm btn--primary" href="https://github.com/DSR001915/pneumoniadetection" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View code</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
 
-	<!--================Footer Area =================-->
-	<footer class="footer_area">
-		<div class="container">
-		  <div class="row justify-content-center">
-			<div class="col-lg-12">
-			  <div class="footer_top flex-column">
-				<div class="footer_logo">
-				  <a href="my img/">
-					<!-- <img src="img/coders.png" alt="" /> -->
-				  </a>
-				  <h4>Follow Me</h4>
-				</div>
-				<div class="footer_social">
-					<a href="https://www.linkedin.com/in/amarjeet-jyotish/" target="_blank"><i class="fab fa-linkedin"></i></a>
-					<a href="https://github.com/AmarjeetJyotis" target="_blank"><i class="fab fa-github"></i></a>
-					<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-					<a href="https://www.facebook.com/amarjeetaryan.aaryan" target="_blank"><i class="fab fa-facebook"></i></a>
-					<a href="https://www.instagram.com/amarjeetjyotish/" target="_blank"><i class="fab fa-instagram"></i></a>
-				  </div>
-				<div class="footer_social">
-			  </div>
-			</div>
-		  </div>
-		  <div class="row footer_bottom justify-content-center">
-			<p class="col-lg-8 col-sm-12 footer-text">
-			  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			  Copyright &copy;
-			  <script>
-				document.write(new Date().getFullYear());
-			  </script>
-			  <!-- All rights reserved  -->
-			  <!-- class="fa fa-heart-o" -->
-              All rights reserved &#10084;&#65039;
-              <i aria-hidden="true"></i> by
-			  <!-- <i class="fa fa-heart-o" aria-hidden="true"></i> by -->
-			  <a href="https://www.linkedin.com/in/amarjeet-jyotish/" target="_blank">Amarjeet Kumar</a>
-			  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			</p>
-		  </div>
-		</div>
-	  </footer>
-	  <!--================End Footer Area =================-->
-  
+              <div class="project-wrap reveal">
+                <article class="project glass">
+                  <div class="project__media">
+                    <div class="cover" aria-hidden="true">
+                      <div class="cover__icons"><i class="devicon-react-original"></i><i class="fa-solid fa-user-check"></i><i class="devicon-typescript-plain"></i></div>
+                      <span class="cover__label">face-api.js · in-browser</span>
+                    </div>
+                  </div>
+                  <div class="project__body">
+                    <span class="project__tag">Computer Vision · Web</span>
+                    <h3>Face Recognition Attendance</h3>
+                    <p>Register with a webcam capture, then mark attendance by real-time face matching — entirely in the browser, with records kept in an in-browser SQL database.</p>
+                    <div class="chips"><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">face-api.js</span><span class="chip">AlaSQL</span><span class="chip">Tailwind CSS</span></div>
+                    <div class="project__actions">
+                      <a class="btn btn--sm btn--primary" href="https://github.com/DSR001915/Face-recognition-attendance-service" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View code</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- ================= Right column ================= -->
+        <div class="col col--split">
+          <!-- Experience -->
+          <section id="experience" class="reveal">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+              <article class="job glass">
+                <div class="job__top">
+                  <h3>AI/ML &amp; DevOps Intern</h3>
+                  <span class="job__when">AUG 2026 — PRESENT</span>
+                </div>
+                <div class="job__org">National e-Governance Division (NeGD), MeitY · New Delhi</div>
+                <ul>
+                  <li>Working on the <b>myScheme</b> Government of India project across AI/ML and software development.</li>
+                  <li>Exploring and querying the myScheme <b>MongoDB</b> data dump for analysis.</li>
+                  <li>Assisting in <b>AI/ML chatbot</b> development for the myScheme application.</li>
+                  <li>Built <b>OneClickCreate</b> — automated meeting scheduling and invitations with Python and FastAPI.</li>
+                  <li>Built <b>SpeakDocs</b> — FastAPI + React app with Voice AI, OCR, hybrid search and RAG-based document Q&amp;A.</li>
+                </ul>
+              </article>
+              <article class="job glass">
+                <div class="job__top">
+                  <h3>AI &amp; Machine Learning Intern</h3>
+                  <span class="job__when">MAY — JUN 2026</span>
+                </div>
+                <div class="job__org">Venura Tech</div>
+                <ul>
+                  <li>Hands-on training in Python, machine learning and deep learning techniques.</li>
+                  <li>Data analysis, visualisation and basic ML workflows in Python.</li>
+                  <li>Model training and evaluation through project-based exercises.</li>
+                </ul>
+              </article>
+            </div>
+          </section>
 
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="index.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<script src="js/theme.js"></script>
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <!-- Technical skills -->
+          <section id="skills" class="panel glass reveal">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="tiles">
+              <div class="tile"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+              <div class="tile"><i class="devicon-fastapi-plain colored"></i><span>FastAPI</span></div>
+              <div class="tile"><i class="devicon-flask-original mono"></i><span>Flask</span></div>
+              <div class="tile"><i class="devicon-react-original colored"></i><span>React</span></div>
+              <div class="tile"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+              <div class="tile"><i class="devicon-mysql-original mono"></i><span>SQL</span></div>
+              <div class="tile"><i class="devicon-scikitlearn-plain colored"></i><span>scikit-learn</span></div>
+              <div class="tile"><i class="devicon-pandas-plain mono"></i><span>Pandas</span></div>
+              <div class="tile"><i class="devicon-numpy-plain colored"></i><span>NumPy</span></div>
+              <div class="tile"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+              <div class="tile"><i class="devicon-linux-plain mono"></i><span>Linux</span></div>
+              <div class="tile"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+            </div>
+            <div class="skill-groups">
+              <div class="skill-group">
+                <h4>AI / ML &amp; Data</h4>
+                <div class="chips"><span class="chip">Machine Learning</span><span class="chip">NLP</span><span class="chip">RAG</span><span class="chip">Model Training &amp; Evaluation</span><span class="chip">EDA</span><span class="chip">Matplotlib</span></div>
+              </div>
+              <div class="skill-group">
+                <h4>Backend &amp; Databases</h4>
+                <div class="chips"><span class="chip">REST APIs</span><span class="chip">JSON / HTTP</span><span class="chip">Oracle SQL</span><span class="chip">MongoDB</span><span class="chip">OOP · DSA · SDLC</span></div>
+              </div>
+              <div class="skill-group">
+                <h4>DevOps</h4>
+                <div class="chips"><span class="chip">Linux / Unix</span><span class="chip">Bash scripting</span><span class="chip">Docker</span><span class="chip">CI/CD</span><span class="chip">GitHub</span><span class="chip">Deployment workflows</span></div>
+              </div>
+              <div class="skill-group">
+                <h4>Agentic Development</h4>
+                <div class="chips"><span class="chip">Claude Code</span><span class="chip">Cursor</span><span class="chip">OpenAI Codex</span><span class="chip">GitHub Copilot</span><span class="chip">AI Agents</span><span class="chip">Prompt Engineering</span></div>
+              </div>
+            </div>
+          </section>
 
-	<script>
-		var typeData = new Typed(".role", {
-		  strings: [
-			"Nice To Meet You...",
-			"Learning in Public...",
-			"Open Source Enthusiast...",
-			"Front-End Developer...",
-			"Empowering Others...",
-			"Computer Science Engineering...",
-		],
-		  loop: true,
-		  typeSpeed: 100,
-		  backSpeed: 80,
-		  backDelay: 1000,
-		});
-	  </script>
+          <!-- Services -->
+          <section id="services" class="reveal">
+            <h2 class="section-title">Services</h2>
+            <div class="services">
+              <article class="service glass">
+                <div class="service__art"><i class="fa-solid fa-brain"></i><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h3>AI / ML Solutions</h3>
+                <p>Predictive models, NLP and RAG-based assistants — from data cleaning and features to evaluation.</p>
+              </article>
+              <article class="service glass">
+                <div class="service__art"><i class="fa-solid fa-server"></i><i class="fa-solid fa-code"></i></div>
+                <h3>Backend &amp; APIs</h3>
+                <p>Clean REST APIs with FastAPI and Flask that put models and data behind a reliable interface.</p>
+              </article>
+              <article class="service glass">
+                <div class="service__art"><i class="fa-brands fa-docker"></i><i class="fa-solid fa-gears"></i></div>
+                <h3>DevOps &amp; Automation</h3>
+                <p>Docker images, CI/CD pipelines, Linux and shell scripts that automate the boring parts.</p>
+              </article>
+            </div>
+          </section>
+
+          <!-- Process -->
+          <section id="process" class="reveal">
+            <h2 class="section-title">Work Process</h2>
+            <div class="process">
+              <div class="step"><span class="step__num">01</span><span class="step__dot"></span><span class="step__text"><b>Understand</b><span>Problem, users &amp; data</span></span></div>
+              <div class="step"><span class="step__num">02</span><span class="step__dot"></span><span class="step__text"><b>Explore</b><span>EDA &amp; feature work</span></span></div>
+              <div class="step"><span class="step__num">03</span><span class="step__dot"></span><span class="step__text"><b>Build</b><span>Models, APIs &amp; UI</span></span></div>
+              <div class="step"><span class="step__num">04</span><span class="step__dot"></span><span class="step__text"><b>Ship</b><span>Docker &amp; CI/CD</span></span></div>
+              <div class="step"><span class="step__num">05</span><span class="step__dot"></span><span class="step__text"><b>Improve</b><span>Evaluate &amp; iterate</span></span></div>
+            </div>
+          </section>
+
+          <!-- Toolbox -->
+          <section class="panel glass reveal">
+            <h2 class="section-title">Everyday Toolbox</h2>
+            <div class="hexes" role="list" aria-label="Everyday tools">
+              <div class="hex-row">
+                <span class="hex hex--hot" role="listitem" title="Python"><i class="devicon-python-plain colored"></i><span class="sr-only">Python</span></span>
+                <span class="hex" role="listitem" title="FastAPI"><i class="devicon-fastapi-plain colored"></i><span class="sr-only">FastAPI</span></span>
+                <span class="hex" role="listitem" title="React"><i class="devicon-react-original colored"></i><span class="sr-only">React</span></span>
+                <span class="hex" role="listitem" title="Jupyter"><i class="devicon-jupyter-plain colored"></i><span class="sr-only">Jupyter</span></span>
+              </div>
+              <div class="hex-row">
+                <span class="hex" role="listitem" title="Docker"><i class="devicon-docker-plain colored"></i><span class="sr-only">Docker</span></span>
+                <span class="hex" role="listitem" title="GitHub"><i class="devicon-github-original mono"></i><span class="sr-only">GitHub</span></span>
+                <span class="hex hex--hot" role="listitem" title="Linux"><i class="devicon-linux-plain mono"></i><span class="sr-only">Linux</span></span>
+                <span class="hex" role="listitem" title="MongoDB"><i class="devicon-mongodb-plain colored"></i><span class="sr-only">MongoDB</span></span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- ================= All repositories ================= -->
+      <section class="wide reveal" id="repos">
+        <h2 class="section-title">More on GitHub<small>Everything else I've built and experimented with</small></h2>
+        <div class="repos">
+          <article class="repo glass">
+            <div class="repo__top"><span class="repo__cat">AI / ML · LLM</span><div class="repo__links"><a class="icon-btn" href="https://github.com/DSR001915/AI-Study-Buddy" target="_blank" rel="noopener" aria-label="AI Study Buddy on GitHub"><i class="fa-brands fa-github"></i></a></div></div>
+            <h3>AI Study Buddy</h3>
+            <p>Flask app that uses Mistral 7B (via OpenRouter) to explain topics, summarise notes and generate quizzes and flashcards from text or PDFs, with PDF export.</p>
+            <div class="chips"><span class="chip">Flask</span><span class="chip">OpenRouter</span><span class="chip">PyPDF2</span><span class="chip">WeasyPrint</span></div>
+          </article>
+          <article class="repo glass">
+            <div class="repo__top"><span class="repo__cat">Data · BI</span><div class="repo__links"><a class="icon-btn" href="https://github.com/DSR001915/CustomerBehaviorAnalysis_DataAnalytics" target="_blank" rel="noopener" aria-label="Customer Behavior Dashboard on GitHub"><i class="fa-brands fa-github"></i></a></div></div>
+            <h3>Customer Behavior Dashboard</h3>
+            <p>Python ETL that cleans and feature-engineers ~3,900 shopping records, loads them into MySQL, and drives a Power BI dashboard of revenue and customer KPIs.</p>
+            <div class="chips"><span class="chip">Pandas</span><span class="chip">SQLAlchemy</span><span class="chip">MySQL</span><span class="chip">Power BI</span></div>
+          </article>
+          <article class="repo glass">
+            <div class="repo__top"><span class="repo__cat">Data · EDA</span><div class="repo__links"><a class="icon-btn" href="https://github.com/DSR001915/VOIS_AICTE_Oct2025_MajorProject_DevanshSinghRaghuvanshi" target="_blank" rel="noopener" aria-label="Netflix analysis on GitHub"><i class="fa-brands fa-github"></i></a></div></div>
+            <h3>Netflix Content Trends</h3>
+            <p>VOIS × AICTE major project: movies vs TV shows over time, top genres and a country-wise choropleth, ending in content-strategy recommendations.</p>
+            <div class="chips"><span class="chip">Pandas</span><span class="chip">Seaborn</span><span class="chip">Plotly</span><span class="chip">Colab</span></div>
+          </article>
+          <article class="repo glass">
+            <div class="repo__top"><span class="repo__cat">Data · EDA</span><div class="repo__links"><a class="icon-btn" href="https://github.com/DSR001915/VOIS_AICTE_Oct2025_MinorProject_DevanshSinghRaghuvanshi" target="_blank" rel="noopener" aria-label="Airbnb analysis on GitHub"><i class="fa-brands fa-github"></i></a></div></div>
+            <h3>Airbnb NYC Listings Analysis</h3>
+            <p>VOIS × AICTE minor project on ~100K listings: price by borough, availability, reviews and an interactive Plotly map.</p>
+            <div class="chips"><span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Seaborn</span><span class="chip">Plotly</span></div>
+          </article>
+          <article class="repo glass">
+            <div class="repo__top"><span class="repo__cat">Web · Front-end</span><div class="repo__links"><a class="icon-btn" href="https://dsr001915.github.io/Hospital-Appointment-Book-System/" target="_blank" rel="noopener" aria-label="Avipra Hospital live site"><i class="fa-solid fa-arrow-up-right-from-square"></i></a><a class="icon-btn" href="https://github.com/DSR001915/Hospital-Appointment-Book-System" target="_blank" rel="noopener" aria-label="Avipra Hospital on GitHub"><i class="fa-brands fa-github"></i></a></div></div>
+            <h3>Avipra Hospital Website</h3>
+            <p>Multi-page hospital site with an appointment form and separate patient and doctor portal pages, hosted on GitHub Pages.</p>
+            <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Bootstrap</span></div>
+          </article>
+          <a class="repo repo--more glass" href="https://github.com/DSR001915?tab=repositories" target="_blank" rel="noopener">
+            <span class="mini__icon"><i class="fa-brands fa-github"></i></span>
+            <h3>See all repositories</h3>
+            <p>Experiments, DevOps practice and coursework on GitHub.</p>
+            <span class="btn btn--sm">github.com/DSR001915 <i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ================= Certifications & education ================= -->
+      <section class="wide reveal" id="credentials">
+        <h2 class="section-title">Certifications &amp; Education</h2>
+        <div class="bubbles">
+          <div class="bubble">
+            <div class="bubble__card glass">
+              <h3>IBM DevOps and Software Engineering</h3>
+              <p>Professional Certificate covering Agile, CI/CD, containers, microservices and cloud-native development.</p>
+              <a href="https://coursera.org/verify/professional-cert/W8SKG784LVL3" target="_blank" rel="noopener">Verify credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <span class="bubble__avatar"><i class="fa-solid fa-infinity"></i></span>
+            <span class="bubble__who">IBM · Coursera</span>
+          </div>
+          <div class="bubble">
+            <div class="bubble__card glass">
+              <h3>AWS Cloud Solutions Architect</h3>
+              <p>Professional Certificate on designing secure, resilient and cost-aware architectures on AWS.</p>
+              <a href="https://coursera.org/verify/professional-cert/VEMOXCV6LWKO" target="_blank" rel="noopener">Verify credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <span class="bubble__avatar"><i class="fa-brands fa-aws"></i></span>
+            <span class="bubble__who">Coursera</span>
+          </div>
+          <div class="bubble">
+            <div class="bubble__card glass">
+              <h3>B.E. Computer Science &amp; Engineering</h3>
+              <p>Chandigarh University · June 2021 – May 2025 · CGPA 8.28 / 10</p>
+              <p style="margin-top:6px">Class XII (PCM) 84% · Class X 93% — Varanasi Public School</p>
+            </div>
+            <span class="bubble__avatar"><i class="fa-solid fa-graduation-cap"></i></span>
+            <span class="bubble__who">Education</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Contact ================= -->
+      <section class="wide" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <form class="form glass reveal" id="contact-form" novalidate>
+            <div class="field">
+              <label for="cf-name">Name</label>
+              <input id="cf-name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input id="cf-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+            </div>
+            <div class="field full">
+              <label for="cf-subject">Subject</label>
+              <input id="cf-subject" name="subject" type="text" placeholder="What's it about?">
+            </div>
+            <div class="field full">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" placeholder="Tell me about your project or role…" required></textarea>
+            </div>
+            <div class="form__actions full">
+              <button class="btn btn--primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+              <a class="btn" href="DevanshResume_AI_ML_DevOps.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+            </div>
+            <p class="form__status full" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="cta glass glow-edge reveal">
+            <h2>Let's build something together</h2>
+            <p>Open to conversations about AI/ML, backend and DevOps work.</p>
+            <div class="contact-rows">
+              <a class="contact-row" href="mailto:dsraghuvanshi2002@gmail.com"><i class="fa-solid fa-envelope"></i><span>dsraghuvanshi2002@gmail.com</span><i class="fa-solid fa-chevron-right"></i></a>
+              <a class="contact-row" href="tel:+919140405360"><i class="fa-solid fa-phone"></i><span>+91 91404 05360</span><i class="fa-solid fa-chevron-right"></i></a>
+              <a class="contact-row" href="https://github.com/DSR001915" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i><span>github.com/DSR001915</span><i class="fa-solid fa-chevron-right"></i></a>
+              <div class="contact-row"><i class="fa-solid fa-location-dot"></i><span>New Delhi, India</span></div>
+            </div>
+            <a class="btn btn--primary" href="https://www.linkedin.com/in/devansh-raghuvanshi-30b578231/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> Connect on LinkedIn</a>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span data-year>2026</span> Devansh Singh Raghuvanshi. All rights reserved.</span>
+      <a class="brand" href="#home">DEVANSH <span>RAGHUVANSHI</span></a>
+    </footer>
+  </div>
+
+  <a class="to-top" href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <script src="js/main.js?v=3" defer></script>
 </body>
-
 </html>
